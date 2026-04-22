@@ -1,17 +1,20 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-04-22 06:01:34.695405100 UTC
+// 2026-04-22 15:43:16.935655800 UTC
 
 #pragma once
 
 #include <cstddef>
+#include <cstdint>
 
 namespace cs2_dumper {
     namespace offsets {
         // Module: client.dll
         namespace client_dll {
             constexpr std::ptrdiff_t dwCSGOInput = 0x233DD80;
-            constexpr std::ptrdiff_t dwEntityList = 0x21C15C0;
+            constexpr std::ptrdiff_t dwEntityList = 0x24CED50;
+            constexpr std::ptrdiff_t dwGameEntitySystem = 0x24CED50;
             constexpr std::ptrdiff_t dwGameEntitySystem_highestEntityIndex = 0x2090;
+            constexpr std::ptrdiff_t dwGameRules = 0x2328F38;
             constexpr std::ptrdiff_t dwGlobalVars = 0x20496A0;
             constexpr std::ptrdiff_t dwGlowManager = 0x2325D30;
             constexpr std::ptrdiff_t dwLocalPlayerController = 0x2308540;
@@ -28,10 +31,12 @@ namespace cs2_dumper {
         // Module: engine2.dll
         namespace engine2_dll {
             constexpr std::ptrdiff_t dwBuildNumber = 0x60CC74;
+            constexpr std::ptrdiff_t dwNetworkGameClient = 0x90A0C0;
             constexpr std::ptrdiff_t dwNetworkGameClient_clientTickCount = 0x378;
             constexpr std::ptrdiff_t dwNetworkGameClient_deltaTick = 0x24C;
             constexpr std::ptrdiff_t dwNetworkGameClient_isBackgroundMap = 0x2C141F;
             constexpr std::ptrdiff_t dwNetworkGameClient_localPlayer = 0xF8;
+            constexpr std::ptrdiff_t dwNetworkGameClient_maxClients = 0x240;
             constexpr std::ptrdiff_t dwNetworkGameClient_serverTickCount = 0x24C;
             constexpr std::ptrdiff_t dwNetworkGameClient_signOnState = 0x230;
             constexpr std::ptrdiff_t dwWindowHeight = 0x90E4EC;
@@ -48,6 +53,7 @@ namespace cs2_dumper {
         // Module: soundsystem.dll
         namespace soundsystem_dll {
             constexpr std::ptrdiff_t dwSoundSystem = 0x512360;
+            constexpr std::ptrdiff_t dwSoundSystem_engineViewData = 0x7C;
         }
     }
 }

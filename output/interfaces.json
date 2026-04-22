@@ -152,7 +152,6 @@
     "SteamAudio001": 2483744
   },
   "steamclient64.dll": {
-    "CLIENTENGINE_INTERFACE_VERSION005": 18446744071758571386,
     "IVALIDATE001": 23697592,
     "SteamClient006": 23686480,
     "SteamClient007": 23686488,

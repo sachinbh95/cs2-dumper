@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-04-22 06:01:34.695405100 UTC
+// 2026-04-22 15:43:16.935655800 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -8,8 +8,10 @@ pub mod cs2_dumper {
         // Module: client.dll
         pub mod client_dll {
             pub const dwCSGOInput: usize = 0x233DD80;
-            pub const dwEntityList: usize = 0x21C15C0;
+            pub const dwEntityList: usize = 0x24CED50;
+            pub const dwGameEntitySystem: usize = 0x24CED50;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2090;
+            pub const dwGameRules: usize = 0x2328F38;
             pub const dwGlobalVars: usize = 0x20496A0;
             pub const dwGlowManager: usize = 0x2325D30;
             pub const dwLocalPlayerController: usize = 0x2308540;
@@ -26,10 +28,12 @@ pub mod cs2_dumper {
         // Module: engine2.dll
         pub mod engine2_dll {
             pub const dwBuildNumber: usize = 0x60CC74;
+            pub const dwNetworkGameClient: usize = 0x90A0C0;
             pub const dwNetworkGameClient_clientTickCount: usize = 0x378;
             pub const dwNetworkGameClient_deltaTick: usize = 0x24C;
             pub const dwNetworkGameClient_isBackgroundMap: usize = 0x2C141F;
             pub const dwNetworkGameClient_localPlayer: usize = 0xF8;
+            pub const dwNetworkGameClient_maxClients: usize = 0x240;
             pub const dwNetworkGameClient_serverTickCount: usize = 0x24C;
             pub const dwNetworkGameClient_signOnState: usize = 0x230;
             pub const dwWindowHeight: usize = 0x90E4EC;
@@ -46,6 +50,7 @@ pub mod cs2_dumper {
         // Module: soundsystem.dll
         pub mod soundsystem_dll {
             pub const dwSoundSystem: usize = 0x512360;
+            pub const dwSoundSystem_engineViewData: usize = 0x7C;
         }
     }
 }

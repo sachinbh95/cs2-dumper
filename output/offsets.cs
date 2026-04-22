@@ -1,12 +1,14 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-04-22 06:01:34.695405100 UTC
+// 2026-04-22 15:43:16.935655800 UTC
 
 namespace CS2Dumper.Offsets {
     // Module: client.dll
     public static class ClientDll {
         public const nint dwCSGOInput = 0x233DD80;
-        public const nint dwEntityList = 0x21C15C0;
+        public const nint dwEntityList = 0x24CED50;
+        public const nint dwGameEntitySystem = 0x24CED50;
         public const nint dwGameEntitySystem_highestEntityIndex = 0x2090;
+        public const nint dwGameRules = 0x2328F38;
         public const nint dwGlobalVars = 0x20496A0;
         public const nint dwGlowManager = 0x2325D30;
         public const nint dwLocalPlayerController = 0x2308540;
@@ -23,10 +25,12 @@ namespace CS2Dumper.Offsets {
     // Module: engine2.dll
     public static class Engine2Dll {
         public const nint dwBuildNumber = 0x60CC74;
+        public const nint dwNetworkGameClient = 0x90A0C0;
         public const nint dwNetworkGameClient_clientTickCount = 0x378;
         public const nint dwNetworkGameClient_deltaTick = 0x24C;
         public const nint dwNetworkGameClient_isBackgroundMap = 0x2C141F;
         public const nint dwNetworkGameClient_localPlayer = 0xF8;
+        public const nint dwNetworkGameClient_maxClients = 0x240;
         public const nint dwNetworkGameClient_serverTickCount = 0x24C;
         public const nint dwNetworkGameClient_signOnState = 0x230;
         public const nint dwWindowHeight = 0x90E4EC;
@@ -43,5 +47,6 @@ namespace CS2Dumper.Offsets {
     // Module: soundsystem.dll
     public static class SoundsystemDll {
         public const nint dwSoundSystem = 0x512360;
+        public const nint dwSoundSystem_engineViewData = 0x7C;
     }
 }
