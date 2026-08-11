@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-08-04 06:14:21.584295100 UTC
+// 2026-08-11 05:23:02.893107 UTC
 
 #pragma once
 
@@ -10,7 +10,7 @@ namespace cs2_dumper {
     namespace schemas {
         // Module: client.dll
         // Class count: 563
-        // Enum count: 14
+        // Enum count: 19
         namespace client_dll {
             // Alignment: 4
             // Member count: 5
@@ -148,6 +148,38 @@ namespace cs2_dumper {
                 COMP_MAT_MUTATOR_CONDITION_INPUT_CONTAINER_EXISTS = 0x0,
                 COMP_MAT_MUTATOR_CONDITION_INPUT_CONTAINER_VALUE_EXISTS = 0x1,
                 COMP_MAT_MUTATOR_CONDITION_INPUT_CONTAINER_VALUE_EQUALS = 0x2
+            };
+            // Alignment: 1
+            // Member count: 28
+            enum class _f__b_ : uint8_t {
+                �n~b = 0xFF,
+                �|b = 0xFF,
+                �M�b = 0xFF,
+                 = 0xFF,
+                 = 0xFF,
+                �&ab = 0xFF,
+                �4�b = 0xFF,
+                 = 0xFF,
+                 = 0xFF,
+                ���b = 0xFF,
+                �5�b = 0xFF,
+                 = 0xFF,
+                 = 0xFF,
+                @e�b = 0xFF,
+                ��b = 0xFF,
+                 = 0xFF,
+                 = 0xFF,
+                `3�b = 0xFF,
+                 = 0xFF,
+                @�-b = 0xFF,
+                 K�b = 0xFF,
+                 = 0xFF,
+                �6�b = 0xFF,
+                 = 0xFF,
+                 = 0xFF,
+                 �b = 0xFF,
+                 = 0xFF,
+                �7�b = 0xFF
             };
             // Parent: C_CSGO_TeamPreviewCharacterPosition
             // Field count: 0

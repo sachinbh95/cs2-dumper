@@ -1,10 +1,10 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-08-04 06:14:21.584295100 UTC
+// 2026-08-11 05:23:02.893107 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
     // Class count: 563
-    // Enum count: 14
+    // Enum count: 19
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5
@@ -142,6 +142,38 @@ namespace CS2Dumper.Schemas {
             COMP_MAT_MUTATOR_CONDITION_INPUT_CONTAINER_EXISTS = 0x0,
             COMP_MAT_MUTATOR_CONDITION_INPUT_CONTAINER_VALUE_EXISTS = 0x1,
             COMP_MAT_MUTATOR_CONDITION_INPUT_CONTAINER_VALUE_EQUALS = 0x2
+        }
+        // Alignment: 1
+        // Member count: 28
+        public enum _f__b_ : byte {
+            �n~b = unchecked((byte)2620257822336),
+            �|b = unchecked((byte)2620424776384),
+            �M�b = unchecked((byte)2620257809088),
+             = unchecked((byte)8243121503833769829),
+             = unchecked((byte)8243121503833769829),
+            �&ab = unchecked((byte)2620424721856),
+            �4�b = unchecked((byte)2620257809280),
+             = unchecked((byte)8386093268503389508),
+             = unchecked((byte)7017564186559734879),
+            ���b = unchecked((byte)2620404727328),
+            �5�b = unchecked((byte)2620257815968),
+             = unchecked((byte)7310575174660812901),
+             = unchecked((byte)8386093268503389540),
+            @e�b = unchecked((byte)2620415253088),
+            ��b = unchecked((byte)2620257819200),
+             = unchecked((byte)8028074745928250469),
+             = unchecked((byte)8318823020788737381),
+            `3�b = unchecked((byte)2620426729472),
+             = unchecked((byte)2620257809536),
+            @�-b = unchecked((byte)2620424727424),
+             K�b = unchecked((byte)2620257809792),
+             = unchecked((byte)2620257812896),
+            �6�b = unchecked((byte)2620257809856),
+             = unchecked((byte)7157184515331941748),
+             = unchecked((byte)7157184515331941748),
+             �b = unchecked((byte)2620257800256),
+             = unchecked((byte)7157184515331941748),
+            �7�b = unchecked((byte)2620257817184)
         }
         // Parent: C_CSGO_TeamPreviewCharacterPosition
         // Field count: 0
