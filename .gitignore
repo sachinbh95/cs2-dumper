@@ -2,5 +2,6 @@
 /.vscode
 /.vs
 /target
+/build_out
 Cargo.lock
 cs2-dumper.exe
