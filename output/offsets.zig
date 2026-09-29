@@ -1,13 +1,13 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-09-26 05:06:12.663931600 UTC
+// 2026-09-29 16:30:08.986990500 UTC
 
 pub const cs2_dumper = struct {
     pub const offsets = struct {
         // Module: client.dll
         pub const client_dll = struct {
             pub const dwCSGOInput: usize = 0x2575BB0;
-            pub const dwEntityList: usize = 0x27151A8;
-            pub const dwGameEntitySystem: usize = 0x27151A8;
+            pub const dwEntityList: usize = 0x27151E8;
+            pub const dwGameEntitySystem: usize = 0x27151E8;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2120;
             pub const dwGameRules: usize = 0x255C8D8;
             pub const dwGlobalVars: usize = 0x222BF88;
